@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch with Video Background</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Video Background -->
+    <video autoplay loop muted id="bg-video">
+        <source src="running.mp4.mp4" type="video/mp4">
+    </video>
+
+    <!-- Stopwatch Container -->
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div class="timer">00:00.000</div>
+        <div class="buttons">
+            <button id="startPause">Start</button>
+            <button id="lap">Lap</button>
+            <button id="reset">Reset</button>
+        </div>
+        <ul id="laps"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
